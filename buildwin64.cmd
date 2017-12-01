@@ -1,1 +1,1 @@
-cmake -G "Visual Studio 15 2017 Win64" -DPAHO_BUILD_SAMPLES=TRUE -DPAHO_BUILD_STATIC=TRUE -DPAHO_MQTT_C_PATH=d:\devtools\paho.mqtt\paho.mqtt.c -DCMAKE_INSTALL_PREFIX=d:\devtools\paho.mqtt\paho.mqtt.cpp ..
+cmake -G "Visual Studio 15 2017 Win64" -DPAHO_BUILD_SAMPLES=TRUE -DPAHO_BUILD_STATIC=TRUE -DPAHO_MQTT_C_PATH=d:\devtools\paho.mqtt\paho.mqtt.c -DCMAKE_INSTALL_PREFIX=d:\devtools\paho.mqtt\paho.mqtt.cpp -DPAHO_WITH_SSL=OFF ..
